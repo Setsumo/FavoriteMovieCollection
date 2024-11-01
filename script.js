@@ -19,7 +19,7 @@ function addMovie() {
 
 function displayMovies() {
     let tableBody = document.getElementById('movieTable').querySelector('tbody');
-    tableBody.innerHTML = ''; // Clear the table
+    tableBody.innerHTML = ''; 
 
    
     for (let movie of movies) {
